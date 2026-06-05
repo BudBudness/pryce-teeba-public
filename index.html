@@ -3,61 +3,101 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pryce Teeba - Complete Catalog Vault</title>
+    <title>Pryce Teeba — Catalog</title>
     <style>
-        body { background-color: #0b0b0b; color: #e5e5e5; font-family: monospace; padding: 20px; line-height: 1.6; }
-        .vault-container { max-width: 800px; margin: 0 auto; border: 1px solid #333; padding: 30px; background-color: #111; }
-        h1, h2, h3 { color: #fff; border-bottom: 1px solid #222; padding-bottom: 5px; }
-        .era-block { margin-bottom: 40px; padding: 15px; border-left: 3px solid #fff; background: #161616; }
-        .track-list { list-style-type: none; padding-left: 0; }
-        .track-item { padding: 6px 0; border-bottom: 1px dashed #222; font-size: 0.95em; }
-        .tag { color: #888; font-size: 0.85em; float: right; }
-        .clear { clear: both; }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { background-color: #050505; color: #ffffff; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; padding: 40px 20px; -webkit-font-smoothing: antialiased; }
+        .wrapper { max-width: 650px; margin: 0 auto; }
+        
+        /* High Fashion Header */
+        header { margin-bottom: 80px; margin-top: 40px; }
+        h1 { font-size: 2.2rem; font-weight: 800; letter-spacing: -0.05em; line-height: 1.1; text-transform: uppercase; margin-bottom: 8px; }
+        .subtitle { font-size: 0.85rem; font-weight: 400; text-transform: uppercase; letter-spacing: 0.2em; color: #666; }
+        
+        /* Hero Visual Frame */
+        .hero-placeholder { width: 100%; height: 280px; background-color: #0d0d0d; border: 1px solid #1a1a1a; margin-bottom: 8px; display: flex; align-items: center; justify-content: center; color: #333; font-size: 0.75rem; letter-spacing: 0.3em; text-transform: uppercase; }
+        .hero-caption { font-size: 0.7rem; color: #444; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 80px; }
+        
+        /* Era Sectioning */
+        .era-section { margin-bottom: 60px; }
+        .era-header { display: flex; justify-content: space-between; align-items: baseline; border-bottom: 1px solid #1a1a1a; padding-bottom: 12px; margin-bottom: 20px; cursor: pointer; }
+        .era-title { font-size: 1.1rem; font-weight: 600; letter-spacing: -0.02em; }
+        .era-meta { font-size: 0.75rem; letter-spacing: 0.1em; color: #555; text-transform: uppercase; }
+        
+        /* Track/Project Lists */
+        .catalog-list { list-style: none; }
+        .catalog-item { font-size: 0.95rem; font-weight: 400; padding: 10px 0; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #0d0d0d; }
+        .catalog-item:last-child { border-bottom: none; }
+        .item-meta { font-size: 0.75rem; color: #444; font-family: monospace; }
+        .locked-msg { font-size: 0.85rem; color: #444; font-style: italic; padding: 10px 0; }
+        
+        /* Minimal Footer */
+        footer { margin-top: 120px; text-align: center; border-top: 1px solid #1a1a1a; padding-top: 30px; }
+        .footer-tag { font-size: 0.65rem; letter-spacing: 0.25em; color: #333; text-transform: uppercase; }
     </style>
 </head>
 <body>
-    <div class="vault-container">
-        <h1>PRYCE TEEBA // DIGITAL VAULT ARCHIVE</h1>
-        <p><strong>System Status:</strong> Active & Synchronized via Sovereign Nodes</p>
-        <p>The definitive, uncompromised master landing page covering the complete independent discography.</p>
-        
-        <div class="era-block">
-            <h2>[ERA 01] Foundational Archives (2014 - 2018)</h2>
-            <ul class="track-list">
-                <li class="track-item">► Side Zeno <span class="tag">[Classic Master Archive]</span></li><div class="clear"></div>
-                <li class="track-item">► Ccupa (feat. Big Trill & Isaac Brown) <span class="tag">[Classic Master Archive]</span></li><div class="clear"></div>
-                <li class="track-item">► 2015 Wrap Up <span class="tag">[Historical Log Archive]</span></li><div class="clear"></div>
-                <li class="track-item">► Level Ndala <span class="tag">[Classic Master Archive]</span></li><div class="clear"></div>
-            </ul>
-        </div>
+    <div class="wrapper">
+        <header>
+            <h1>Pryce Teeba</h1>
+            <div class="subtitle">Complete Independent Archive // 2014 — 2026</div>
+        </header>
 
-        <div class="era-block">
-            <h2>[ERA 02] Catalog Expansion Tapes & EPs (2019 - 2024)</h2>
-            <ul class="track-list">
-                <li class="track-item">► African Stories (with Baru) <span class="tag">[Full Project Deployment]</span></li><div class="clear"></div>
-                <li class="track-item">► It Is What It Is <span class="tag">[EP Node Live]</span></li><div class="clear"></div>
-                <li class="track-item">► Hakuna Matata <span class="tag">[Full Album Archive]</span></li><div class="clear"></div>
-                <li class="track-item">► Kiwedde Mixtape <span class="tag">[Mixtape Archive Stack]</span></li><div class="clear"></div>
-                <li class="track-item">► Kambajulire Mixtape <span class="tag">[Mixtape Archive Stack]</span></li><div class="clear"></div>
-                <li class="track-item">► Ebivuga <span class="tag">[EP Node Live]</span></li><div class="clear"></div>
-            </ul>
-        </div>
+        <!-- Dynamic High-Fashion Art Frame Placeholder -->
+        <div class="hero-placeholder">Asset Vault Live</div>
+        <div class="hero-caption">[ Studio Node: sovereign_intelligence_shell ]</div>
 
-        <div class="era-block">
-            <h2>[ERA 03] MARINATE & Active Era (2025 - 2026)</h2>
-            <ul class="track-list">
-                <li class="track-item">01. Reporting Live from Pyong (feat. JahTahRah, Habo) <span class="tag">[Active Stream Split]</span></li><div class="clear"></div>
-                <li class="track-item">02. Antidot (Rap Sikiboozi) (feat. JahTahRah, Spyda MC, The Mith) <span class="tag">[Active Stream Split]</span></li><div class="clear"></div>
-                <li class="track-item">03. Shot Notice (Defector) <span class="tag">[Active Stream Split]</span></li><div class="clear"></div>
-                <li class="track-item">04. Hobadde Tomanyi (feat. Juda Rap Knowledge & Babaluku) <span class="tag">[Active Stream Split]</span></li><div class="clear"></div>
-                <li class="track-item">05. Ntinda <span class="tag">[Active Stream Split]</span></li><div class="clear"></div>
-                <div class="track-item" style="color: #666; font-style: italic;">[Remaining Vault Tracks 06-14 Locked to Secure System Layout]</div>
-            </ul>
-        </div>
-        
-        <p style="text-align: center; color: #444; font-size: 0.8em; margin-top: 50px;">
-            SECURE REPOSITORY ACCESS // REVENUE LEDGER ENCRYPTED
-        </p>
+        <main>
+            <!-- ERA 01 -->
+            <section class="era-section">
+                <div class="era-header">
+                    <span class="era-title">Foundational Archives</span>
+                    <span class="era-meta">14 — 18</span>
+                </div>
+                <ul class="catalog-list">
+                    <li class="catalog-item"><span>Side Zeno</span><span class="item-meta">MSTR_AV</span></li>
+                    <li class="catalog-item"><span>Ccupa <span style="color:#555; font-size:0.85rem;">ft. Big Trill, Isaac Brown</span></span><span class="item-meta">MSTR_AV</span></li>
+                    <li class="catalog-item"><span>2015 Wrap Up</span><span class="item-meta">HIST_LG</span></li>
+                    <li class="catalog-item"><span>Level Ndala</span><span class="item-meta">MSTR_AV</span></li>
+                </ul>
+            </section>
+
+            <!-- ERA 02 -->
+            <section class="era-section">
+                <div class="era-header">
+                    <span class="era-title">Expansion Tapes & EPs</span>
+                    <span class="era-meta">19 — 24</span>
+                </div>
+                <ul class="catalog-list">
+                    <li class="catalog-item"><span>African Stories <span style="color:#555; font-size:0.85rem;">w/ Baru</span></span><span class="item-meta">LP_NODE</span></li>
+                    <li class="catalog-item"><span>It Is What It Is</span><span class="item-meta">EP_NODE</span></li>
+                    <li class="catalog-item"><span>Hakuna Matata</span><span class="item-meta">ALB_AV</span></li>
+                    <li class="catalog-item"><span>Kiwedde Mixtape</span><span class="item-meta">MX_STACK</span></li>
+                    <li class="catalog-item"><span>Kambajulire Mixtape</span><span class="item-meta">MX_STACK</span></li>
+                    <li class="catalog-item"><span>Ebivuga</span><span class="item-meta">EP_NODE</span></li>
+                </ul>
+            </section>
+
+            <!-- ERA 03 -->
+            <section class="era-section">
+                <div class="era-header">
+                    <span class="era-title">Marinate</span>
+                    <span class="era-meta">25 — 26</span>
+                </div>
+                <ul class="catalog-list">
+                    <li class="catalog-item"><span>01. Reporting Live from Pyong <span style="color:#555; font-size:0.85rem;">ft. JahTahRah, Habo</span></span><span class="item-meta">SPLIT_ACTV</span></li>
+                    <li class="catalog-item"><span>02. Antidot (Rap Sikiboozi) <span style="color:#555; font-size:0.85rem;">ft. JahTahRah, Spyda MC, The Mith</span></span><span class="item-meta">SPLIT_ACTV</span></li>
+                    <li class="catalog-item"><span>03. Shot Notice (Defector)</span><span class="item-meta">SPLIT_ACTV</span></li>
+                    <li class="catalog-item"><span>04. Hobadde Tomanyi <span style="color:#555; font-size:0.85rem;">ft. Juda Rap Knowledge, Babaluku</span></span><span class="item-meta">SPLIT_ACTV</span></li>
+                    <li class="catalog-item"><span>05. Ntinda</span><span class="item-meta">SPLIT_ACTV</span></li>
+                    <li class="locked-msg">Vault segments 06—14 restricted to secure backend ledger routing.</li>
+                </ul>
+            </section>
+        </main>
+
+        <footer>
+            <div class="footer-tag">Sovereign Encryption Architecture // Encrypted Revenue Ledger</div>
+        </footer>
     </div>
 </body>
 </html>
